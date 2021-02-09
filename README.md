@@ -30,10 +30,10 @@
 ***Element***
  - An Element is something that is created by JSX an an Object 
  - const reactElement = `<div>Hello</div>`. This is the return value of React.createElement. But it is not reusable!
- 
+
  ***Component***
 - A component is bascially a function that returns an element 
 - It is reuseable
-- We can convert this element reactElement = `<div>Hello</div>` to a component by just turning it into a function. 
+- We can convert this **element** reactElement = `<div>Hello</div>` to a **component** by just turning it into a function. 
 - const reactElement = () => `<div>{text}</div> `
 - ReactDOM.render(`<div> <reactElement>/ </div>`, domElement)
