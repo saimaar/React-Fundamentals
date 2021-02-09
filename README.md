@@ -20,7 +20,7 @@
 - It is taking it three parameters:
 1. The HTML element 
 2. Null is where the attribute (className etc) goes for the html.
-3. Child
+3. Child, which could be a string,function or a variable
 
 ## Difference between a Component and an Element
  - A component is bascially a function that returns an element 
