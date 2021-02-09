@@ -13,6 +13,12 @@
 - const domElement = `document.getElementById('root')`
 - ReactDOM.render(reactElement, domElement) 
 - The above code should print "hello" to the browser
+<br>
+
+**So what is actually happenning?**
+- The `<div>Hello</div>` under the hood transpiles to Javascript like this: 
+- const reactElement = React.createElement('div', null, 'Hello') 
+- It is taking it three arguments and null is where the attribute goes for the html
 
 ## Difference between a Component and an Element
  - A component is bascially a function that returns an element 
