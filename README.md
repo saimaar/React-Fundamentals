@@ -37,3 +37,5 @@
 - We can convert this **element** reactElement = `<div>Hello</div>` to a **component** by just turning it into a function. 
 - const reactElement = () => `<div>{text}</div> `
 - ReactDOM.render(`<div> <reactElement>/ </div>`, domElement)
+
+Note: Children is also a prop. Rendering by position or value 
