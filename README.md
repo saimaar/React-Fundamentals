@@ -13,7 +13,6 @@
 - const domElement = `document.getElementById('root')`
 - ReactDOM.render(reactElement, domElement) 
 - The above code should print "hello" to the browser
-<br>
 
 **So what is actually happenning?**
 - The `<div>Hello</div>` under the hood transpiles to Javascript like this: 
