@@ -9,8 +9,10 @@
 - You make a React element and a DOM element and rendering it together using ReactDOM
 
 **Example:**
-- const reactElement = `<div>Heellllooooo</div>`
+- const reactElement = `<div>Hello</div>`
 - const domElement = `document.getElementById('root')`
+- ReactDOM.render(reactElement, domElement) 
+- The above code should print "hello" to the browser
 
 ## Difference between a Component and an Element
  - A component is bascially a function that returns an element 
