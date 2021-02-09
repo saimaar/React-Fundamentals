@@ -23,7 +23,7 @@
 3. Child, which could be a string,function or a variable
 - Note: Whenever we are wrting some JSX, we are basically writng pure javascript code under the hood.
 
-** JSX: Short for Javascript XML, like a template (not HTML or String)
+**JSX: Short for Javascript XML, like a template (not HTML or String)**
 
 ## Difference between a Component and an Element
  - A component is bascially a function that returns an element 
