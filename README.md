@@ -30,6 +30,7 @@
 ***Element***
  - An Element is something that is created by JSX an an Object 
  - const reactElement = `<div>Hello</div>`. This is the return value of React.createElement. But it is not reusable!
+ 
  ***Component***
 - A component is bascially a function that returns an element 
 - It is reuseable
