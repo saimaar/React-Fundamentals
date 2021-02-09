@@ -10,7 +10,7 @@
 - You make a React element and a DOM element and rendering it together using ReactDOM
 
 **Example:**
-- const reactElement = `<div>Hello</div>`
+- const reactElement = `<div>Hello</div>` (this is JSX)
 - const domElement = `document.getElementById('root')`
 - ReactDOM.render(reactElement, domElement) 
 - The above code should print "hello" to the browser
