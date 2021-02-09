@@ -17,7 +17,7 @@
 **So what is actually happenning?**
 - The `<div>Hello</div>` under the hood transpiles to Javascript like this: 
 - const reactElement = React.createElement('div', null, 'Hello') 
-- It is taking it three parameters 
+- It is taking it three parameters:
 1. The HTML element 
 2. Null is where the attribute (className etc) goes for the html.
 3. Child
