@@ -39,4 +39,4 @@
 - ReactDOM.render(`<div> <reactElement>/ </div>`, domElement)
 
 Note: Children is also a prop. Rendering by position or value 
-[RenderingProps.js](src/RenderingProps.js)
+- [RenderingProps.js](src/RenderingProps.js)

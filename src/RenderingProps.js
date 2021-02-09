@@ -12,8 +12,8 @@ ReactDOM.render(
       <Button>
         + Add
       </Button>
-      <Button>
-        Subtract -
+      <Button> 
+        Subtract - 
       </Button>
-      <Button children="MULTIPLY *****" />
+      <Button children="MULTIPLY *****" /> // this is by value
     </div>, domElement)
