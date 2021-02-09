@@ -1,4 +1,5 @@
 # React-Fundamentals
+- React is a library and not a framework!
 
 ## Difference between React vs ReactDOM
 - React is a blueprint 
