@@ -40,3 +40,7 @@
 
 Note: Children is also a prop. Rendering by position or value 
 - [RenderingProps.js](src/RenderingProps.js)
+
+***Spreading ...Props***
+
+- Like how we pass children and other props to a functional component as its parametere, similary we can do ...props and pass it to our functional component. This will allow to take in more events or props to the component! 
