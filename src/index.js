@@ -8,18 +8,26 @@ const App = ()=>{
 
     const [count, setCount] = useState(0)
 
+    let add = (evt) => {
+        setCount(count + 1)
+    }
+
+    let substract = () =>{
+        setCount(count - 1)  
+    }
+
 
 return(
     <section>
         <h2>Counter</h2>
         <div>
-            <button>+</button>
+            <button id="add" onClick={add}>+</button>
             <input
             type = "text"
             aria-label = "count"
-            defaultValue = {count}
+            value = {count}
             />
-            <button>-</button>
+            <button onClick={substract}>-</button>
         </div>
 
     </section>
