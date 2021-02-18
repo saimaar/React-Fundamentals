@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 const App = ()=>{ 
 
     const [count, setCount] = useState(0)
+    const [randomColor, setRandomColor] = useState(100)
 
     let add = (evt) => {
         setCount(count + 1)
@@ -15,17 +16,19 @@ const App = ()=>{
     let substract = () =>{
         setCount(count - 1)  
     }
-
-
 return(
     <section>
-        <h2>Counter</h2>
+        <h2 style={{ color:`hsl(${randomColor}, 100%, 50%)`}}>Counter</h2>
         <div>
             <button id="add" onClick={add}>+</button>
             <input
-            type = "text"
+            type = "number"
             aria-label = "count"
             value = {count}
+            onChange={(event)=>{
+                setCount(parseInt(event.target.value))
+                setRandomColor(count * 10)
+            }}
             />
             <button onClick={substract}>-</button>
         </div>
